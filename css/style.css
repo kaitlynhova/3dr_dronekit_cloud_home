@@ -1,0 +1,50 @@
+.navbar-default {
+  background-color: #323232;
+  border-color: 323232;
+  border-radius: 0;
+}
+
+.navbar-brand {
+  float: left;
+  height: 50px;
+  padding: 15px 15px;
+  font-size: 18px;
+  line-height: 20px;
+  width: 200px;
+  position: relative;
+  top: -2px;
+  left: 10px;
+}
+
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+  border: 0;
+}
+
+.right{
+  text-align: right;
+}
+.left{
+  text-align: left;
+  word-spacing: 2px;
+}
+
+#bottomnav{
+  background-color: #808284;
+  color: white;
+  padding: 12px;
+  padding-bottom: 3px;
+  word-spacing: 20px;
+  position: relative;
+  top: -20px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .nav>li {
+    position: relative;
+    display: block;
+    text-align: center;
+    padding: 15px;
+    color: white;
+  }
+}
