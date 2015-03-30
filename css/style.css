@@ -1,7 +1,26 @@
+
+/* NAVIGATION STYLES */
+
+.cloud a {
+  color: #259ed9 !important;
+}
+
+.ground a {
+  color: #5FBE8C !important;
+}
+
 .navbar-default {
   background-color: #323232;
   border-color: 323232;
   border-radius: 0;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: white;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  opacity:.7;
 }
 
 .navbar-brand {
