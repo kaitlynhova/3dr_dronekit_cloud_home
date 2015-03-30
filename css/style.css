@@ -163,6 +163,10 @@ footer p{
   letter-spacing: 2px;
 }
 
+footer a:hover{
+  color: white;
+  opacity: .7;
+}
 footer .social-icons{
   max-width: 430px;
   font-size: 25px;
