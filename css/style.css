@@ -8,6 +8,10 @@
 .right{
   text-align: right;
 }
+a {
+  color: white;
+  text-decoration: none !important;
+}
 .left{
   text-align: left;
   word-spacing: 2px;
