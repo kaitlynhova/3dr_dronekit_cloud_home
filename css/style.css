@@ -17,6 +17,10 @@ a {
   word-spacing: 2px;
 }
 
+.center-text{
+  text-align:center;
+}
+
 ul{
   list-style: none;
 }
